@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "SharpNinja.PetsciiConverter": {
+      "commandName": "Project",
+      "commandLineArgs": "--inputtype JSON --outputfile petscii --outputtype SEQ --inputfiles petscii.json"
+    },
+    "PetsciiConverter": {
+      "executablePath": "C:\\Program Files\\dotnet\\dotnet.exe",
+      "commandLineArgs": "textconverter.dll --inputtype JSON --outputfile petscii --outputtype SEQ --inputfiles petscii.json",
+      "workingDirectory": "C:\\Users\\Payton\\Source\\Repos\\PetsciiToSeq\\SharpNinja.PetsciiConverter\\bin\\Debug\\netcoreapp1.0"
+    }
+  }
+}
